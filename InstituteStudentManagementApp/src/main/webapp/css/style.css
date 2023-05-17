@@ -1,0 +1,88 @@
+@charset "ISO-8859-1";
+body
+{
+	background-color: #ffff00;
+	width:100%;
+	text-align: center; 
+}
+
+.center, .save
+{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.sForm
+{
+	text-align: right;
+	margin-right: 40%;
+}
+
+.form,button
+{
+	font-size: 20px;
+}
+.save
+{
+	font-size: 20px;
+	display: flex;
+	margin-right: 5%;
+}
+
+.log:hover, .fail
+{
+	color: rgb(128, 0, 255);
+}
+
+.save:hover
+{
+	background-color: rgb(128, 0, 255);
+}
+
+.btnLogin
+{
+	margin-left: 3%;
+}
+
+
+.signUp:hover, .btnLogin:hover, .btnReg:hover, .btnDel:hover
+{
+	background-color: rgb(128, 255, 255);
+}
+
+
+.log
+{
+	font-size: 30px;
+	color:red;
+}
+
+.out
+{
+	margin-top: 28%;
+}
+
+.edit
+{
+	background-color: #80ff00;	
+}
+
+.delete, .btnDel
+{
+	background-color: #ff8080;
+}
+
+.failed
+{
+	color: #ff0080;
+}
+
+.pass
+{
+	color:#00ff00;
+}
+
+.hide
+{
+	-webkit-text-security:disc;
+}
